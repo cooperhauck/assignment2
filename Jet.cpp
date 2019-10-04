@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <cmath>
-Jet::Jet() {setBrand("Custom"), setModel("VTx"), setFuelType("Unknown"), setNumEngines(1) }
+Jet::Jet() {setBrand("Unknown"), setModel("Unknown"), setFuelType("Unknown"), setNumEngines(1) }
 
 Jet::Jet(string brand, string model, string fuelType, int numberOfEngines) {
     setBrand(brand);
