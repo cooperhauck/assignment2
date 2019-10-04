@@ -1,0 +1,39 @@
+a. 
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 795 bytes | 198.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/cooperhauck/assignment2.git
+   f4975e5..13d01d6  master -> master
+
+b. There have been 9 commits in total I used git log command to find them
+
+c. Last time .gitignore was modified was  Wed Sep 25 18:13:30 2019 
+
+d. Branches are used as pointers to a specific commit. This means there is no storage / memory overhead with branches,
+   making it easier to divide up your work into smaller parts and then merging them together.
+
+e. git log pulles up past commits and the files assiociated with them while git status is the current commits that have
+   not been pushed and the changes not commited.
+
+f. git log Vehicle.h
+
+g. git log --all --grep="file" 
+
+h. Inheritance is the mechanism by which an object acquires the some/all properties of another object. It supports the
+   concept of hierarchial classification 
+   Polymorphism means to process objects differently based on their data type. This means one method with multiple
+   implementation. And which implementation to be used is decided at runtime depending upon the data type
+   Encapsulation is binding the data with the code that manipulates it. It keeps the data and the code safe from external
+   interference.
+
+i. The main difference between the two workflows is that in the Integration Manager workflow each developer has their own
+   public and private repositories while in the Dictator and Lieutenants workflow there are lieutenant repositories that 
+   multiple developers push too.
+
+j. A team of 100 developers would greatly benifit from the Dictator and Lieutenant workflow over the centralized workflow
+   because there is a hierarchy of repositorys so not every developer has to push and pull to the same directory. 
+   This would casue confusion and greatly slow down the process as the developers would get into eachothers way. 
