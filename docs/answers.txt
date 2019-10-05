@@ -37,3 +37,8 @@ i. The main difference between the two workflows is that in the Integration Mana
 j. A team of 100 developers would greatly benifit from the Dictator and Lieutenant workflow over the centralized workflow
    because there is a hierarchy of repositorys so not every developer has to push and pull to the same directory. 
    This would casue confusion and greatly slow down the process as the developers would get into eachothers way. 
+
+5. OOP principles 
+   The driving simulator prototype is using both polymorphism and encapsulation. Polymorphism is used in the simulator which 
+   can be seen from the generic toString() function across all the classes. Encapsulation is demenstrated in the functions 
+   that would grab private variables and be able to change them.  
